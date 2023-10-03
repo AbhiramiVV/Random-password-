@@ -1,4 +1,3 @@
-import React, { ChangeEvent } from 'react'
 
 type IncludeLowercaseProps = {
   includeLowercase: boolean;
@@ -7,7 +6,7 @@ type IncludeLowercaseProps = {
 export default function IncludeLowercase
 ({includeLowercase,setIncludeLowercase}: 
   IncludeLowercaseProps) {
-    function handleIncludeLowercaseChange(event:ChangeEvent<HTMLInputElement>){
+    function handleIncludeLowercaseChange(){
         setIncludeLowercase(!includeLowercase)
     }
   return (

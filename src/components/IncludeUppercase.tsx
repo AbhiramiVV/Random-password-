@@ -1,4 +1,3 @@
-import React, { ChangeEvent } from 'react'
 
 type IncludeUppercaseProps = {
   includeUppercase: boolean;
@@ -7,7 +6,7 @@ type IncludeUppercaseProps = {
 export default function IncludeUppercase
 ({includeUppercase,setIncludeUppercase}: 
   IncludeUppercaseProps) {
-    function handleIncludeUppercaseChange(event:ChangeEvent<HTMLInputElement>){
+    function handleIncludeUppercaseChange(){
         setIncludeUppercase(!includeUppercase)
     }
   return (

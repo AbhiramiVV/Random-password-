@@ -1,4 +1,3 @@
-import React, { ChangeEvent } from 'react'
 
 type IncludeSymbolsProps = {
   includeSymbols: boolean;
@@ -7,7 +6,7 @@ type IncludeSymbolsProps = {
 export default function IncludeSymbols
 ({includeSymbols,setIncludeSymbols}: 
   IncludeSymbolsProps) {
-    function handleIncludeSymbolsChange(event:ChangeEvent<HTMLInputElement>){
+    function handleIncludeSymbolsChange(){
         setIncludeSymbols(!includeSymbols );
     }
   return (

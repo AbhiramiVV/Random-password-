@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from "react";
+import  { ChangeEvent } from "react";
 type PasswordLengthProps = {
   passwordLength: number;
   setPasswordLength: (length: number) => void;
